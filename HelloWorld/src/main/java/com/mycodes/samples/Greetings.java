@@ -14,4 +14,8 @@ public class Greetings {
         return "Hello";
     }
     
+    public String sayBye(){
+        return "Bye";
+    }
+    
 }

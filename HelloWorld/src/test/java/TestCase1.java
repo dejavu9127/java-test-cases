@@ -46,6 +46,12 @@ public class TestCase1 {
     
     @Test
     public void personSayHello() {
-        assertThat(person1.sayHello(),containsString("Hello"));
+        assertThat(person1.sayHello(),containsString("Bye"));
     }
+    
+    @Test
+    public void checkBye(){
+        assertThat(person1.sayBye(),containsString("Bye"));
+    }
+    
 }
