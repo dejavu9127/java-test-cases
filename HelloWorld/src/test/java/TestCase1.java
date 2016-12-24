@@ -24,18 +24,24 @@ public class TestCase1 {
     
     @BeforeClass
     public static void setUpClass() {
+        System.out.println("BeforeClass");
     }
     
     @AfterClass
     public static void tearDownClass() {
+        System.out.println("AfterClass");
     }
     
     @Before
     public void setUp() {
+        
+        System.out.println("Before");
     }
     
     @After
     public void tearDown() {
+        
+        System.out.println("After");
     }
 
     // TODO add test methods here.
