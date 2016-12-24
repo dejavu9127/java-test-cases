@@ -11,7 +11,7 @@ package com.mycodes.samples;
  */
 public class Greetings {
     public String sayHello(){
-        return "Hello";
+        return "Welcome";
     }
     
 }
